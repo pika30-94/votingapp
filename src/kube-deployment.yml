@@ -73,7 +73,7 @@ spec:
     spec:
       containers:
       - name: db
-        image: postgres:9.4
+        image: postgres:15
         env:
         - name: PGDATA
           value: /var/lib/postgresql/data/pgdata
